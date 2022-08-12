@@ -65,6 +65,11 @@ CREATE TABLE `tsdwad_maira`.`Historial`
 /*---------------------------------------*/
 SELECT * FROM Historial;
 
+
+
+/*-----------------------------------------------*/
+/*Carga datos Dueno*/
+/*-----------------------------------------------*/
 INSERT INTO `Dueno` 
 (`DNI`,
  `Nombre`,
@@ -248,6 +253,47 @@ VALUES ('22564897',
    '3514568221',
     'Comechingones 1255')
 
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('21394947',
+ 'Mario',
+  'Gonzalez',
+   '3514568221',
+    'Comechingones 932')
+
+
+
+/*--------------------------------------*/
+/*Carga datos Perros*/
+/*--------------------------------------*/
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+  `Fecha_nac`,
+   `Sexo`,
+    `DNI_dueno`)
+VALUES (NULL,
+ 'Lola',
+  '2011-04-11',
+   'Hembra',
+    '9564812')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+  `Fecha_nac`,
+   `Sexo`,
+    `DNI_dueno`)
+VALUES (NULL,
+ 'Pedrito',
+  '2012-03-11',
+   'Macho',
+    '21394947')
+    
 INSERT INTO `Perro` 
 (`ID_Perro`,
  `Nombre`,
@@ -258,7 +304,7 @@ INSERT INTO `Perro`
       'Rocco'
        '2021-11-20',
         'Macho',
-         '22564897')
+         '21832749')
 
 
 INSERT INTO `Perro` 
@@ -272,5 +318,193 @@ INSERT INTO `Perro`
     'Pantera',
     '2016-05-22',
     'Macho',
-    '23426456')
+    '43231035')
 
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Hanna',
+    '2022-01-22',
+    'Hembra',
+    '21394947')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Pancho',
+    '2022-03-04',
+    'Macho',
+    '22564897')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Joaquin',
+    '2019-10-15',
+    'Macho',
+    '22654897')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Nala',
+    '2021-02-20',
+    'Hembra',
+    '23123654')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Lara',
+    '2022-05-22',
+    'Hembra',
+    '40561951')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Negro',
+    '2016-12-01',
+    'Macho',
+    '41585455')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Rocky',
+    '2022-01-31',
+    'Macho',
+    '25963741')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Daisy',
+    '2021-04-10',
+    'Hembra',
+    '40561951')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Sandi',
+    '2014-09-20',
+    'Hembra',
+    '30664801')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Hercules',
+    '2018-04-16',
+    'Macho',
+    '37951753')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Matilda',
+    '2015-10-22',
+    'Hembra',
+    '23550840')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Milo',
+    '2019-01-05',
+    'Macho',
+    '41546806')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Luna',
+    '2020-07-13',
+    'Hembra',
+    '36711544')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
+ `Nombre`,
+ `Fecha_nac`,
+  `Sexo`, 
+  `DNI_dueno`)
+   VALUES (
+    NULL,
+    'Samu',
+    '2022-06-03',
+    'Macho',
+    '37951753')
+
+
+SELECT *
+FROM `Perro`
+    JOIN `Dueno` ON `Perro`.`DNI_dueno` = `Dueno`.`DNI`
+WHERE
+    `Dueno`.`DNI` = '21394947';
