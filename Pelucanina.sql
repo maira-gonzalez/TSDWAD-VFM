@@ -137,41 +137,6 @@ INSERT INTO `Perro`
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 UPDATE `Perro`
  SET `Fecha_nac` = '2021-11-20' 
  WHERE `Perro`.
