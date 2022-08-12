@@ -60,11 +60,62 @@ CREATE TABLE `tsdwad_maira`.`Historial`
       PRIMARY KEY (`ID_Historial`), 
       FOREIGN KEY (`Perro`) REFERENCES `Perro` (`ID_Perro`)
       ) ENGINE = InnoDB;
+/*---------------------------------------*/
+/*consulta que lista todos los historiales cargados*/
+/*---------------------------------------*/
+SELECT * FROM Historial;
 
+INSERT INTO `Dueno`
+ (`DNI`,
+ `Nombre`,
+ `Apellido`,
+  `Telefono`, 
+  `Direccion`)
+  VALUES NULL,
+(`43230233`,
+ `Pedro`,
+ `Lopez`,
+  `3516784592`, 
+  `Jose Guardado 567`)
 
+INSERT INTO `Dueno`
+ (`DNI`,
+ `Nombre`,
+ `Apellido`,
+  `Telefono`, 
+  `Direccion`)
+  VALUES NULL,
+(`21348932`,
+ `Sara`,
+ `Gomez`,
+  `3513219876`, 
+  `Bermudas 769`)
+  
+  INSERT INTO `Dueno`
+ (`DNI`,
+ `Nombre`,
+ `Apellido`,
+  `Telefono`, 
+  `Direccion`)
+  VALUES NULL,
+(`40453712`,
+ `German`,
+ `Gonzalez`,
+  `3513886123`, 
+  `Congreso 1567`)
 
-
-
+  INSERT INTO `Dueno`
+ (`DNI`,
+ `Nombre`,
+ `Apellido`,
+  `Telefono`, 
+  `Direccion`)
+  VALUES NULL,
+(`43230233`,
+ `Pedro`,
+ `Lopez`,
+  `3516784592`, 
+  `Jose Guardado 567`)
 
 
 
