@@ -508,3 +508,248 @@ FROM `Perro`
     JOIN `Dueno` ON `Perro`.`DNI_dueno` = `Dueno`.`DNI`
 WHERE
     `Dueno`.`DNI` = '21394947';
+
+
+/*-------------------------------*/
+/*Carga datos Historial*/
+/*-------------------------------*/
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-07-15'),
+        'Lara',
+         'Baño completo',
+          '2850');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-07-22'),
+        'Hercules',
+         'Baño y corte de pelo',
+          '2200');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-05-12'),
+        'Rocky',
+         'Corte de uñas',
+          '850');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-04-14'),
+        'Pancho',
+         'Baño y secado',
+          '1490');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-07-03'),
+        'Nala',
+         'Baño y corte de uñas',
+          '2250');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-07-22'),
+        'Sandi',
+         'Baño completo',
+          '2850');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-04-30'),
+        'Pantera',
+         'Baño y secado',
+          '1990');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-07-15'),
+        'Daisy',
+         'Baño y corte de uñas',
+          '2250');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-07-26'),
+        'Samu',
+         'Baño completo con descuento',
+          '2250');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-06-21'),
+        'Matilda',
+         'Baño y secado',
+          '1990');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-07-09'),
+        'Rocky',
+         'Baño completo y entrega a domicilio',
+          '3000');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-05-15'),
+        'Milo',
+         'Baño completo',
+          '2750');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-04-14'),
+        'Sandi',
+         'Baño completo',
+          '2650');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-01-22'),
+        'Hercules',
+         'Baño completo',
+          '2150');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-02-02'),
+        'Luna',
+         'Baño y corte de uñas',
+          '2050');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2021-09-10'),
+        'Milo',
+         'Baño completo',
+          '1450');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2021-11-18'),
+        'Daisy',
+         'Baño completo',
+          '1300');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2021-06-23'),
+        'Pantera',
+         'Baño y corte de uñas',
+          '1150');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2020-10-22'),
+        'Rocco',
+         'Baño completo',
+          '950');
+
+INSERT INTO `Historial`
+ (`ID_Historial`,
+  `Fecha`,
+   `Perro`,
+    `Descripcion`,
+     `Monto`)
+      VALUES (NULL,
+       DATE('2022-07-22'),
+        'Hercules',
+         'Baño completo',
+          '2850');
