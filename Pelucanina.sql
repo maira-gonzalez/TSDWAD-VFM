@@ -65,61 +65,200 @@ CREATE TABLE `tsdwad_maira`.`Historial`
 /*---------------------------------------*/
 SELECT * FROM Historial;
 
+INSERT INTO `Dueno` 
+(`DNI`,
+ `Nombre`,
+`Apellido`,
+`Telefono`,
+`Direccion`)
+VALUES 
+('9564812',
+'German',
+'Lopez',
+'3515642314',
+'Maestro vidal 1152')
+
+INSERT INTO `Dueno`
+ (`DNI`, `Nombre`,
+  `Apellido`,
+   `Telefono`,
+    `Direccion`)
+     VALUES 
+     ('22654897',
+      'Lucia',
+       'Perez',
+        '3514569652', 
+         'Bermuda 587')
+
+
+INSERT INTO `Dueno` 
+(`DNI`,
+ `Nombre`,
+  `Apellido`,
+   `Telefono`,
+    `Direccion`)
+     VALUES ('40561951',
+      'Sara',
+       'Gomez',
+        '3516489514',
+         'Tenerife 482')
+
 INSERT INTO `Dueno`
  (`DNI`,
- `Nombre`,
- `Apellido`,
-  `Telefono`, 
-  `Direccion`)
-  VALUES NULL,
-(`43230233`,
- `Pedro`,
- `Lopez`,
-  `3516784592`, 
-  `Jose Guardado 567`)
+  `Nombre`,
+   `Apellido`,
+    `Telefono`,
+     `Direccion`)
+      VALUES ('21832749',
+       'Adrian',
+        'Toledo',
+         '3516559513',
+          'Bv San Juan 756')
 
 INSERT INTO `Dueno`
  (`DNI`,
+  `Nombre`,
+   `Apellido`,
+    `Telefono`,
+     `Direccion`)
+      VALUES ('23550840',
+       'Pedro',
+        'Garcia',
+         '3513105561',
+          'Jose Guardado 5541')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('41546806',
+    'Pedro', 
+     'Villareal', 
+      '3514585564', 
+       'Velez 855')
+
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('25963741',
+'Jose', 
+'Vargas',
+'3514559512',
+'Duarte Quiros 3547')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('30664801',
+'Noelia',
+ 'Pereyra',
+  '3513122588',
+   'Bermudas 887')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('43213892',
+'Pedro',
+'Lopez',
+'3518559546',
+'Bahamas 4457')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('37951753',
+'Dario',
+'Monserrat',
+'3513122574',
+'Belardinelli 585')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('41585455',
+'Jazmin',
+ 'Montenegro',
+  '3516554995',
+   'Congreso 5517')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('23123654',
+ 'Mabel',
+  'Cuello',
+   '3516795841',
+    'Almirante Bronw 4115')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('36711544',
+ 'Florencia',
+  'Miras',
+   '3513554884',
+    'Villa Vicencio 5584')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('43231035',
+ 'Mateo',
+  'ortega',
+   '3516449875',
+    'Melincue 677')
+
+INSERT INTO `Dueno`
+(`DNI`, 
+`Nombre`,
+`Apellido`,
+`Telefono`, 
+`Direccion`)
+VALUES ('22564897',
+ 'Mario',
+  'Barrionuevo',
+   '3514568221',
+    'Comechingones 1255')
+
+INSERT INTO `Perro` 
+(`ID_Perro`,
  `Nombre`,
- `Apellido`,
-  `Telefono`, 
-  `Direccion`)
-  VALUES NULL,
-(`21348932`,
- `Sara`,
- `Gomez`,
-  `3513219876`, 
-  `Bermudas 769`)
-  
-  INSERT INTO `Dueno`
- (`DNI`,
- `Nombre`,
- `Apellido`,
-  `Telefono`, 
-  `Direccion`)
-  VALUES NULL,
-(`40453712`,
- `German`,
- `Gonzalez`,
-  `3513886123`, 
-  `Congreso 1567`)
-
-  INSERT INTO `Dueno`
- (`DNI`,
- `Nombre`,
- `Apellido`,
-  `Telefono`, 
-  `Direccion`)
-  VALUES NULL,
-(`43230233`,
- `Pedro`,
- `Lopez`,
-  `3516784592`, 
-  `Jose Guardado 567`)
-
-
-
-
+  `Fecha_nac`,
+   `Sexo`,
+    `DNI_dueno`)
+     VALUES (NULL,
+      'Rocco'
+       '2021-11-20',
+        'Macho',
+         '22564897')
 
 
 INSERT INTO `Perro` 
@@ -135,14 +274,3 @@ INSERT INTO `Perro`
     'Macho',
     '23426456')
 
-
-
-UPDATE `Perro`
- SET `Fecha_nac` = '2021-11-20' 
- WHERE `Perro`.
- `ID_Perro` = 3
-
- UPDATE `Perro`
-  SET `Fecha_nac` = '2011-02-23' 
-  WHERE `Perro`.
-  `ID_Perro` = 4
