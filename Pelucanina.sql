@@ -201,7 +201,7 @@ INSERT INTO `Dueno`
 `Direccion`)
 VALUES ('41585455',
 'Jazmin',
- 'Montenegro',
+ 'Monte10',
   '3516554995',
    'Congreso 5517')
 
@@ -277,7 +277,7 @@ INSERT INTO `Perro`
    `Sexo`,
     `DNI_dueno`)
 VALUES (NULL,
- 'Lola',
+ '3',
   '2011-04-11',
    'Hembra',
     '9564812')
@@ -289,7 +289,7 @@ INSERT INTO `Perro`
    `Sexo`,
     `DNI_dueno`)
 VALUES (NULL,
- 'Pedrito',
+ '4',
   '2012-03-11',
    'Macho',
     '21394947')
@@ -301,7 +301,7 @@ INSERT INTO `Perro`
    `Sexo`,
     `DNI_dueno`)
      VALUES (NULL,
-      'Rocco'
+      '1'
        '2021-11-20',
         'Macho',
          '21832749')
@@ -315,7 +315,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Pantera',
+    '2',
     '2016-05-22',
     'Macho',
     '43231035')
@@ -328,7 +328,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Hanna',
+    '5',
     '2022-01-22',
     'Hembra',
     '21394947')
@@ -341,7 +341,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Pancho',
+    '6',
     '2022-03-04',
     'Macho',
     '22564897')
@@ -354,7 +354,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Joaquin',
+    '7',
     '2019-10-15',
     'Macho',
     '22654897')
@@ -367,7 +367,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Nala',
+    '8',
     '2021-02-20',
     'Hembra',
     '23123654')
@@ -380,7 +380,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Lara',
+    '9',
     '2022-05-22',
     'Hembra',
     '40561951')
@@ -393,7 +393,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Negro',
+    '10',
     '2016-12-01',
     'Macho',
     '41585455')
@@ -406,7 +406,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Rocky',
+    '11',
     '2022-01-31',
     'Macho',
     '25963741')
@@ -419,7 +419,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Daisy',
+    '12',
     '2021-04-10',
     'Hembra',
     '40561951')
@@ -432,7 +432,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Sandi',
+    '13',
     '2014-09-20',
     'Hembra',
     '30664801')
@@ -445,7 +445,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Hercules',
+    '14',
     '2018-04-16',
     'Macho',
     '37951753')
@@ -458,7 +458,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Matilda',
+    '15',
     '2015-10-22',
     'Hembra',
     '23550840')
@@ -471,7 +471,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Milo',
+    '16',
     '2019-01-05',
     'Macho',
     '41546806')
@@ -484,7 +484,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Luna',
+    '17',
     '2020-07-13',
     'Hembra',
     '36711544')
@@ -497,7 +497,7 @@ INSERT INTO `Perro`
   `DNI_dueno`)
    VALUES (
     NULL,
-    'Samu',
+    '18',
     '2022-06-03',
     'Macho',
     '37951753')
@@ -523,107 +523,107 @@ INSERT INTO `Historial`
     VALUES
     (NULL,
     '2022-07-15',
-    'Lara',
+    '9',
     'Baño completo',
     '2850'),
     (NULL,
     '2022-07-22',
-    'Hercules',
+    '14',
     'Baño y corte de pelo',
     '2200'),
     (NULL,
     '2022-05-12',
-    'Rocky',
+    '11',
     'Corte de uñas',
     '850'),
     (NULL,
     '2022-04-14',
-    'Pancho',
+    '6',
     'Baño y secado',
     '1490'),
     (NULL,
     '2022-07-03',
-    'Nala',
+    '8',
     'Baño y corte de uñas',
     '2250'),
     (NULL,
     '2022-07-22',
-    'Sandi',
+    '13',
     'Baño completo',
     '2850'),
     (NULL,
     '2022-04-30',
-    'Pantera',
+    '2',
     'Baño y secado',
     '1990'),
     (NULL,
     '2022-07-15',
-    'Daisy',
+    '12',
     'Baño y corte de uñas',
     '2250'),
     (NULL,
     '2022-07-26',
-    'Samu',
+    '18',
     'Baño completo con descuento',
     '2250'),
     (NULL,
     '2022-06-21',
-    'Matilda',
+    '15',
     'Baño y secado',
     '1990'),
     (NULL,
     '2022-07-09',
-    'Rocky',
+    '11',
     'Baño completo y entrega a domicilio',
     '3000'),
     (NULL,
     '2022-05-15',
-    'Milo',
+    '15',
     'Baño completo',
     '2750'),
     (NULL,
     '2022-04-14',
-    'Sandi',
+    '13',
     'Baño completo',
     '2650'),
     (NULL,
     '2022-01-22',
-    'Hercules',
+    '14',
     'Baño completo',
     '2150'),
     (NULL,
     '2022-02-02',
-    'Luna',
+    '17',
     'Baño y corte de uñas',
     '2050'),
     (NULL,
     '2021-09-10',
-    'Milo',
+    '16',
     'Baño completo',
     '1450'),
     (NULL,
     '2021-11-18',
-    'Daisy',
+    '12',
     'Baño completo',
     '1300'),
     (NULL,
     '2021-06-23',
-    'Pantera',
+    '2',
     'Baño y corte de uñas',
     '1150'),
     (NULL,
     '2021-10-22',
-    'Rocco',
+    '1',
     'Baño completo',
     '950'),
     (NULL,
     '2022-07-22',
-    'Hercules',
+    '14',
     'Baño completo',
     '2850'),
     (NULL,
     '2019-02-17',
-    'Joaquin',
+    '7',
     'Baño completo',
     '750');
 
