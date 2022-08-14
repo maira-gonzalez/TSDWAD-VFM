@@ -20,7 +20,7 @@ CREATE TABLE `tsdwad_maira`.`Dueno`
     PRIMARY KEY (`DNI`)
     ) ENGINE = InnoDB;
 /*---------------------------------------*/
-/*consulta que lista todo los dueños cargados*/
+/*consulta que enlista todo los dueños cargados*/
 /*---------------------------------------*/
 SELECT * FROM Dueno;
 
@@ -42,7 +42,7 @@ CREATE TABLE `tsdwad_maira`.`Perro`
       FOREIGN KEY (`DNI_Dueno`) REFERENCES `Dueno` (`DNI`)
       ) ENGINE = InnoDB;
 /*---------------------------------------*/
-/*consulta que lista todo los perros cargados*/
+/*consulta que enlista todo los perros cargados*/
 /*---------------------------------------*/
 SELECT * FROM Perro;
 
@@ -61,7 +61,7 @@ CREATE TABLE `tsdwad_maira`.`Historial`
       FOREIGN KEY (`Perro`) REFERENCES `Perro` (`ID_Perro`)
       ) ENGINE = InnoDB;
 /*---------------------------------------*/
-/*consulta que lista todos los historiales cargados*/
+/*consulta que enlista todos los historiales cargados*/
 /*---------------------------------------*/
 SELECT * FROM Historial;
 
@@ -612,7 +612,7 @@ INSERT INTO `Historial`
     'Baño y corte de uñas',
     '1150'),
     (NULL,
-    '2020-10-22',
+    '2021-10-22',
     'Rocco',
     'Baño completo',
     '950'),
@@ -620,9 +620,16 @@ INSERT INTO `Historial`
     '2022-07-22',
     'Hercules',
     'Baño completo',
-    '2850');
+    '2850'),
+    (NULL,
+    '2019-02-17',
+    'Joaquin',
+    'Baño completo',
+    '750');
 
 
+/*-----------------------*/
+/*Ejercicio N6*/
+/*-----------------------*/
 
-
-ALTER TABLE `Historial` CHANGE `Fecha` `Fecha` DATE NOT NULL;
+SELECT Nombre FROM Perros INNER JOIN Historial on Historial.Perro=Perro.ID_Perro WHERE FECHA>="2022/1/01";
