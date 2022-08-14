@@ -503,12 +503,6 @@ INSERT INTO `Perro`
     '37951753')
 
 
-SELECT *
-FROM `Perro`
-    JOIN `Dueno` ON `Perro`.`DNI_dueno` = `Dueno`.`DNI`
-WHERE
-    `Dueno`.`DNI` = '21394947';
-
 
 /*-------------------------------*/
 /*Carga datos Historial*/
