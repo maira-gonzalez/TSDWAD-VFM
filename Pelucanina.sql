@@ -632,4 +632,8 @@ INSERT INTO `Historial`
 /*Ejercicio N6*/
 /*-----------------------*/
 
-SELECT Nombre FROM Perros INNER JOIN Historial on Historial.Perro=Perro.ID_Perro WHERE FECHA>="2022/1/01";
+SELECT Nombre 
+FROM Perro 
+INNER JOIN Historial 
+ON Historial.Perro=Perro.ID_Perro 
+WHERE FECHA>='2022-01-01';
